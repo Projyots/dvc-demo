@@ -30,7 +30,7 @@ dvc init -- It will create certain folders like dvcIgnore and others.
 
 dvc add data_given/winequality.csv
 
-git add . --Thsi will add everything in the folder to GitHub
+git add . --This will add everything in the folder to GitHub
 
 git commit - m "First Commit" -- this will commit the changes with message in double quotes.
 
