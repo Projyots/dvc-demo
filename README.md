@@ -1,67 +1,67 @@
  Create Environement
 
- '''bash
+ ```bash
 conda create -n wineq python=3.7 -y
-'''
+```
 
 activate env
-'''bash
+```bash
 conda activate wineq
-'''
+```
 
 create Requirements.txt
-'''bash
+```bash
 touch requirements.txt
-'''
+```
 
 Installed Requirements.txt
 
-'''bash
+```bash
 pip install requirements.txt
-'''
+```
 
 Dowload the data
 
-'''bash
+```bash
 GDrive link
 https://drive.google.com/drive/folders/18zqQiCJVgF7uzXgfbIJ-04zgz1ItNfF5?usp=sharing
-'''
+```
 
-'''bash
+```bash
 git init
-'''
+```
 
-'''bash
+```bash
 dvc init -- It will create certain folders like dvcIgnore and others.
-'''
+```
 
-'''bash
+```bash
 dvc add data_given/winequality.csv
-'''
+```
 
-'''bash
+```bash
 git add . --This will add everything in the folder to GitHub
-'''
+```
 
-'''bash
+```bash
 git commit - m "First Commit" -- this will commit the changes with message in double quotes.
-'''
+```
 
-'''bash
+```bash
 git remote add origin https://github.com/Projyots/dvc-demo
-'''
+```
 
-'''bash
+```bash
 git branch -M main -- Changes the brach name from "Master" to "Main"
-'''
+```
 
-'''bash
+```bash
 git pull origin main --allow-unrelated-histories
-'''
+```
 
-'''bash
+```bash
 git push origin main  -- This will push all the files/folders to GitHub 
-'''
+```
 
 
 
